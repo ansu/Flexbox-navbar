@@ -1,0 +1,126 @@
+ body {
+
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+ }
+
+main {
+  min-height: 400px;
+  min-width: 400px;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6;
+}
+
+main {
+  width: 90%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.twitter__bird{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitter {
+  height: 66px;
+  align-items: center;
+  padding: 0 10px;
+  border: 3px solid rgba(238,238,238 ,1);
+  border-radius: 10px;
+  color: rgba(117,117,117 ,1);
+  box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+  display: flex;
+  flex-wrap: wrap;
+}
+.twitter li {
+  cursor: pointer;
+}
+.twitter li:hover{
+  color: rgba(85,172,238 ,1);
+}
+.twitter__bird {
+  color: rgba(85,172,238 ,1);
+  font-size: 1.3em;
+}
+.twitter li:not(:last-child):not(.twitter__bird) {
+  margin-right: 10px;
+}
+.twitter li  i:not(.fa-twitter):not(.fa-search):not(.fa-user-circle-o) {
+  margin-right: 3px;
+}
+.twitter li > button {
+  font-size: 1em;
+  border: 0;
+  background: rgba(85,172,238 ,1);
+  color: #fff;
+  border-radius: 100px;
+}
+
+
+.facebook {
+  display: flex
+}
+
+.facebook {
+  height: 46px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid rgba(238,238,238 ,1);
+  border-radius: 5px;
+  background: rgba(59,89,153 ,1);
+  color: #fff;
+  font-size: 0.9em;
+  box-shadow: 5px 10px 20px -20px rgba(59,89,153 ,1)
+}
+
+/* .facebook li:nth-child(2){
+  margin-right: 100px;
+} */
+
+/* .facebook li:nth-child(2){
+   width: 400px;
+} */
+
+.facebook__brand  i{
+  font-size: 1.5em;
+}
+.facebook li:not(:last-child):not(:first-child):not(.facebook__search) {
+  margin-right: 10px;
+}
+.facebook__search {
+  margin-right: auto;
+}
+
+.medium {
+  display: flex;
+}
+
+
+.medium li:not(:last-child):not(:first-child):not(.medium__twitter__bird) {
+  margin-right: 10px;
+}
+.medium {
+  height: 46px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid rgba(238,238,238 ,1);
+  border-radius: 5px;
+  background: rgba(59,89,153 ,1);
+  color: #fff;
+  font-size: 0.9em;
+  box-shadow: 5px 10px 20px -20px rgba(59,89,153 ,1)
+}
+
+.medium__twitter__bird {
+  margin-right: auto;
+  color: rgba(85,172,238 ,1);
+  font-size: 1.3em;
+}
